@@ -1,0 +1,36 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+}
+
+.container {
+    display: flex;
+    background-color: #f5dcf0;
+    padding: 40px;
+    border-radius: 22px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: center;
+}
+
+.card-top img{
+    border-radius: 50px;
+}
+
+p {
+    margin-bottom: 10px;
+}
