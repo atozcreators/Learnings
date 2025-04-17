@@ -7,7 +7,6 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <h1>React Redux</h1>
         <CustomerAdd />
         <CustomerView />
       </div>

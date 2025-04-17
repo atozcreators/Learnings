@@ -10,7 +10,7 @@ export default function CustomerView(){
     function deleteHandler(index){
         dispatch(deleteCustomer(index))
     }
-    return <div>
+    return <div className="view-con">
         <h2>Customer List</h2>
         {<ul>
             {customers.map((customer,index)=><li>{customer}<button onClick={()=>deleteHandler(index)}>Delete</button></li>)}

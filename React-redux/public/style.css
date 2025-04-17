@@ -26,6 +26,12 @@ body{
     padding: 32px;
   }
 
+  .view-con{
+    background: #ffffff7d;
+    border-radius: 15px;
+    padding: 32px;
+  }
+
   .add-cont h2{
     margin-top: 0;
     margin-bottom: 32px;
@@ -76,6 +82,8 @@ body{
   }
 
   .App {
+    display: flex;
+    column-gap: 100px;
     text-align: center;
     color: #fff;
   }
